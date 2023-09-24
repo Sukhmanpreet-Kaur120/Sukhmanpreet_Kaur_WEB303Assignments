@@ -8,9 +8,9 @@ $(document).ready(function () {
     xhr.onreadystatechange = function () {
       if (xhr.readyState === 4) {
         if (xhr.status === 200) {
-          content.slideDown(400, function () {
+          content.slideDown(4000, function () {
             content.html(xhr.responseText);
-            content.slideUp(400);
+            content.slideUp(4000);
           });
         } else {
           console.log("Error loading content.");
