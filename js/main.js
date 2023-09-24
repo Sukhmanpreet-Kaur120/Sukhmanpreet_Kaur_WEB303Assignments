@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var content = $("#content");
 
-  function loadContent(url) {
+  function load(url) {
     var xhr = new XMLHttpRequest();
     xhr.open("GET", url, true);
 
@@ -20,17 +20,15 @@ $(document).ready(function () {
 
     xhr.send();
   }
-
-  // Attach click event handlers to the links
   $("#prospect").click(function () {
-    loadContent("prospect.html");
+    load("prospect.html");
   });
 
   $("#convert").click(function () {
-    loadContent("convert.html");
+    load("convert.html");
   });
 
   $("#retain").click(function () {
-    loadContent("retain.html");
+    load("retain.html");
   });
 });
