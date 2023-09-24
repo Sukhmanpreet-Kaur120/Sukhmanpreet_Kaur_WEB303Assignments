@@ -17,8 +17,6 @@ $(document).ready(function (){
     
         xhr.send();
       }
-    
-      // Attach click event handlers to the links
       $("#prospect").click(function () {
         loadContent("prospect.html");
       });
