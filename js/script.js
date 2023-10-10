@@ -15,7 +15,7 @@ $(function () {
             let long = pos.coords.longitude.toFixed(2);
             let acc = pos.coords.accuracy.toFixed(2);
             $("#locationhere").html("<p>Latitude: " +tude +"</p>" +"<p>Longitude: " +long +"</p>" +
-            "<p>Accuracy: " +acc/1000 +" killometers</p>");
+            "<p>Accuracy: " +(acc/1000).toFixed(2) +" killometers</p>");
             localStorage.setItem("loc",JSON.stringify({ latitude: tude, longitude: long }));
             let storeLoc = localStorage.getItem("loc");
             if (storeLoc) {
