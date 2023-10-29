@@ -2,3 +2,16 @@ html, body{
     margin: 0;
     padding: 0;
 }
+
+img{
+    width: 20%;
+    float: right;
+    margin: 10px;
+    border: 2.5px solid #FFE4E1; 
+    position: absolute;
+    top: 12%;
+    right: 10%;
+    border-style: 5px dotted;
+    border: 4px dashed; 
+    filter: drop-shadow( 3px 3px 5px rgba(221, 217, 221, 0.877));
+}
