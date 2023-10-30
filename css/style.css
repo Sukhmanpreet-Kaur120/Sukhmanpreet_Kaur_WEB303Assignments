@@ -1,6 +1,17 @@
-html, body{
+html{
+        margin: 0%;
+        background-color: rgb(69, 125, 133);
+}
+
+body{
     margin: 0;
     padding: 0;
+}
+
+button {
+    width: 100%;
+    background-color: rgb(19, 72, 103);
+    font-size: large;
 }
 
 img{
@@ -14,4 +25,46 @@ img{
     border-style: 5px dotted;
     border: 4px dashed; 
     filter: drop-shadow( 3px 3px 5px rgba(221, 217, 221, 0.877));
+}
+
+h1, h3 {
+    text-align: center;
+    color: rgb(2, 1, 1);
+}
+
+.accord-list {
+    display: none;
+}
+
+.accord{
+    list-style-type: none; 
+}
+
+.tab-panel {
+    margin: 0;
+    padding: 0;
+}
+
+.tab-panel li {
+    display: inline-block;
+    background-color: rgb(130, 101, 151);
+}
+
+.tab-panel li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(2, 1, 1);
+}
+
+.tab-list li.active {
+    background-color: rgb(39, 53, 74);
+}
+
+.tab-panel {
+    display: none;
+    background-color: rgb(177, 161, 249);
+    padding: 10px;
+    min-height: 75px;
+    overflow: auto;
 }
