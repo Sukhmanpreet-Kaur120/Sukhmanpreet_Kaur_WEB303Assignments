@@ -57,11 +57,11 @@ h1, h3 {
     color: rgb(2, 1, 1);
 }
 
-.tab-list li.active {
+.tab-panel li.active {
     background-color: rgb(39, 53, 74);
 }
 
-.tab-panel {
+.tab-list {
     display: none;
     background-color: rgb(177, 161, 249);
     padding: 10px;
