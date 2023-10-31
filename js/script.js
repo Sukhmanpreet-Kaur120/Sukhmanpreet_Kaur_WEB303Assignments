@@ -13,7 +13,7 @@ $('.accord-name').on('click', function(e) {
 $('.tab-list').hide();
 $('#tab1').show();
 
-$('.tab-panel').on('click', function(e) {
+$('.tab-panel li').on('click', function(e) {
     e.preventDefault();
     $('.tab-panel li').removeClass('active');
     $('.tab-list').hide();
