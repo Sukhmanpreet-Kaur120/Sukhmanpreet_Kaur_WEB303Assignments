@@ -19,6 +19,20 @@
     cursor: pointer;
 }
 
+#thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.photo-box {
+    border: 2px solid transparent;
+}
+
+.active-thumbnail {
+    border: 2px solid #3498db;
+}
+
+
 /*Photo Viewer*/
 #main-image{
     height: 600px;

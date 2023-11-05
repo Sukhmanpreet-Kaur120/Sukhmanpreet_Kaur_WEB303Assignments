@@ -11,11 +11,6 @@ $(function () {
         $('#open-box').on('click',function(){
             $('#box-container').show();
         });
-
-        $('#close').on('click',function(){
-            $('#box-contaiiner').hide();
-        });
-
         //Photo Viewer
         $('#img-container img').on({
             mouseover: function(){
