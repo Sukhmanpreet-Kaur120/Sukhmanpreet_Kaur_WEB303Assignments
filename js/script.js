@@ -9,7 +9,7 @@ $(function () {
         //modal code goes here
         // model box
         $('#open-box').on('click',function(){
-            $('#box-container').show();
+            $('#box-container').toggle();
         });
         //Photo Viewer
         $('#img-container img').on({
