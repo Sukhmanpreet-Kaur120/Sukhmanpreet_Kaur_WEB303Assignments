@@ -1,0 +1,86 @@
+#london-wrapper, #windsor-wrapper{
+    display: none;
+    height: 500px;
+}
+
+#box-container{
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    width: 30%;
+    padding:20px ;
+    border: 2px solid blue;
+    z-index: 11111;
+    display: none;
+}
+
+#close{
+    float: right;
+    cursor: pointer;
+}
+
+/*Photo Viewer*/
+#main-image{
+    height: 600px;
+    width: 540px;
+    border: 3px solid grey;
+}
+
+.img-pic{
+    width: 100px;
+    height: 100px;
+    border: 3px solid grey;
+}
+
+#photo-viewer{
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+
+/*Slider*/
+.slider-container{
+    position: absolute;
+    width: 640px;
+    height: 400px;
+    margin: 40 auto;
+    overflow: auto;
+    top: 40%;
+    left: 50%;
+}
+
+.slider-img{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+    float: left;
+    padding: 3px;
+    border: 2px solid #999;
+}
+
+.prev, .next{
+    float: left;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    margin-top: 160px;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.prev{
+    margin-right: -45px;
+}
+.next{
+    margin-left: -45px;
+}
+.slider-img img{
+    display: none;
+    width: 600px;
+    height: 400;
+}
+
+.slider-img img.active{
+    display: inline-block;
+}

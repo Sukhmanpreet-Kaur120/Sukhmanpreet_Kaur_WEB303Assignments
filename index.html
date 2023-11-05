@@ -1,103 +1,53 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fan page - Nusrat Fateh Ali Khan</title>
-	
+    <link href="css/photoViewer.css" rel="stylesheet">
+    <title>Model- PhViewer- Slider</title>
 </head>
 
 <body>
-    <h1>Fan page - Nusrat Fateh Ali Khan</h1>
-    <ul class="accordion">
-        <li>
-            <button class="accord-name">Biography</button>
-            <div class="accord-list">
-                <p>Khan was born into a Punjabi Muslim family in Lyallpur (modern-day Faisalabad), Punjab, Pakistan, in 1948. His family originates from Basti Sheikh Darvesh, who settled in Jalandhar, Punjab in present-day India. His ancestors learned music and singing there and 
-                    adopted it as a profession. He was the fifth child and first son of Fateh Ali Khan, a musicologist, vocalist, instrumentalist, and qawwal. Khan's family, which included four older sisters and a younger brother, Farrukh Fateh Ali Khan, grew up in central Faisalabad. 
-                    In 1971, after the death of his uncle Mubarak Ali Khan, Khan became the official leader of the family qawwali party and the party became known as Nusrat Fateh Ali Khan, Mujahid Mubarak Ali Khan & Party. Khan's first public performance as the leader of the qawwali party was 
-                    at a studio recording broadcast as part of an annual music festival organized by Radio Pakistan, known as Jashn-e-Baharan. Khan sang mainly in Urdu and Punjabi and occasionally in Persian, Braj Bhasha, and Hindi. His first major hit in Pakistan was the song Haq Ali Ali, which 
-                    was performed in a traditional style and with traditional instrumentation. </p></div>
-        </li>
+    <h1><!-- your name goes here --> Photo Gallery</h1>
+    <div id="photo-viewer">
+        <a href="#" class="photo-box is-loading"></a>
+        <div class="photo-thumbnails">
+            <a href="img/full-sized-photo-1.png" class="thumbnail-anchor active" title="photo 1">
+                <img src="img/thumbnail-photo-1.png" alt="thumbnail 1">
+            </a>
+            <a href="img/full-sized-photo-2.png" class="thumbnail-anchor" title="photo 2">
+                <img src="img/thumbnail-photo-2.png" alt="thumbnail 2">
+            </a>
+            <!-- Add more images here -->
+        </div>
+    </div>
 
-        <li>
-            <button class="accord-name">Awards</button>
-            <div class="accord-list">
-                <p>Khan is widely considered to be the most important qawwal in history. In 1987, he received the President of Pakistan's Award for Pride of Performance for his contribution to Pakistani music. In 1995, he received the UNESCO Music Prize. In 1996 he was awarded Grand Prix des Amériques 
-                    at Montreal World Film Festival for exceptional contribution to the art of cinema. In the same year, Khan received the Arts and Culture Prize of the Fukuoka Asian Culture Prizes. In Japan, he was also remembered as the Budai or "Singing Buddha". In 1997, he was nominated for two Grammy Awards, 
-                    for Best Traditional Folk Album and Best World Music Album. In 1998, he was awarded PTV Life Time Achievement Award. As of 2001, he held the Guinness World Record for the "Most Qawwali Recordings", having recorded over 125 qawwali albums before his death. In 2005, Khan posthumously received 
-                    the "Legends" award at the UK Asian Music Awards. Khan was listed at position 91 on Rolling Stone's 200 Best Singers Of All Time list, which was published on January 1, 2023.</p></div>
-        </li>
+    <!--Model Box - Light Box - Popup Box-->
+    <button id="open-box"> Open </button>
+    <div id="box-container">
+         <!-- Close element-->
+         <span id="close">Close</span>
+        <h2>Box Header</h2>
+        <p>This is the content of the box.</p>
+    </div>
 
-        <li>
-            <button class="accord-name">Tributes, Legacy and Influence</button>
-            <div class="accord-list">
-                <p>Khan is often credited as one of the progenitors of "world music." Widely acclaimed for his spiritual charisma and distinctive exuberance, he was one of the first and most important artists to popularize qawwali, then considered an "arcane religious tradition", to Western audiences. Jeff Buckley cited 
-                    Khan as a major influence, saying of him "He's my Elvis", and performing the first few minutes of Khan's "Yeh Jo Halka Halka Suroor Hai" (including vocals) at live concerts. Many other artists have also cited Khan as an influence, such as Nadia Ali, Zayn Malik, Malay, Peter Gabriel, A. R. Rahman, Sheila Chandra, 
-                    Alim Qasimov, Eddie Vedder, and Joan Osborne, among others. His music was also appreciated by singers such as Mick Jagger, socialites such as Parmeshwar Godrej, actors such as Amitabh Bachchan, Trudie Styler, Sean Penn, Susan Sarandon, and Tim Robbins, and authors such as Sam Harris, who cited Khan as one of his favourite 
-                    musicians. In 2004, a tribute band called Brooklyn Qawwali Party (formerly Brook's Qawwali Party) was formed in New York City by percussionist Brook Martinez to perform the music of Khan.  The album, Dub Qawwali, was released by Six Degrees Records. It reached no. 2 in the iTunes US Chart, no. 4 in the UK and was the no. 1 seller 
-                    in Amazon.com's Electronic Music section for a period. It also earned Gaudi a nomination for the BBC's World Music Awards 2008.</p></div>
-        </li>
-
-        <li>
-            <button class="accord-name">Popular Culture</button>
-            <div class="accord-list">
-            <p>One of Khan's famous qawwali songs, "Tere Bin Nahin Lagda" ("I am restless without you"), appeared on two of his 1996 albums, Sorrows Vol. 69 and Sangam (as "Tere Bin Nahin Lagda Dil"), the latter a collaborative album with Indian lyricist Javed Akhtar; Sangam sold over 1 million copies in India. Composed by Nusrat Fateh Ali Khan, the Kachche 
-                Dhaage soundtrack album sold 3 million units in India. Nusrat Fateh Ali Khan's music had a big impact on Bollywood music, inspiring numerous Indian musicians working in Bollywood since the late 1980s. For example, he inspired A. R. Rahman and Javed Akhtar, both of whom he collaborated with. However, there were many hit filmi songs from other Indian 
-                music directors that plagiarised Khan's music. His music also appears on soundtracks for Hollywood films such as The Last Temptation of Christ (1988), Natural Born Killers (1994) and Dead Man Walking (1995).</p></div>
-        </li>
-    </ul>
-
-    <h3>Tabbed list</h3>
-    <ul class="tab-panels"> 
-        <li class="active">
-            <a clas="tab-name" href="#tab1">Biography</a>
-        </li>
-
-        <li class="active">
-            <a clas="tab-name" href="#tab2">Awards</a>
-        </li>
-
-        <li class="active">
-            <a clas="tab-name" href="#tab3">tribute, Legacy and Influence</a>
-        </li>
-
-        <li class="active">
-            <a clas="tab-name" href="#tab4">Popular Culture</a>
-        </li>
-    </ul>
-    <div class="tab-list active" id="tab1">      
-        <p>khan was born into a Punjabi Muslim family in Lyallpur (modern-day Faisalabad), Punjab, Pakistan, in 1948. His family originates from Basti Sheikh Darvesh, who settled in Jalandhar, Punjab in present-day India. His ancestors learned music and singing there and 
-            adopted it as a profession. He was the fifth child and first son of Fateh Ali Khan, a musicologist, vocalist, instrumentalist, and qawwal. Khan's family, which included four older sisters and a younger brother, Farrukh Fateh Ali Khan, grew up in central Faisalabad. 
-            In 1971, after the death of his uncle Mubarak Ali Khan, Khan became the official leader of the family qawwali party and the party became known as Nusrat Fateh Ali Khan, Mujahid Mubarak Ali Khan & Party. Khan's first public performance as the leader of the qawwali party was 
-            at a studio recording broadcast as part of an annual music festival organized by Radio Pakistan, known as Jashn-e-Baharan. Khan sang mainly in Urdu and Punjabi and occasionally in Persian, Braj Bhasha, and Hindi. His first major hit in Pakistan was the song Haq Ali Ali, which 
-            was performed in a traditional style and with traditional instrumentation.</p></div>
-
-    <div class="tab-list active" id="tab2">
-        <p>Khan is widely considered to be the most important qawwal in history. In 1987, he received the President of Pakistan's Award for Pride of Performance for his contribution to Pakistani music. In 1995, he received the UNESCO Music Prize. In 1996 he was awarded Grand Prix des Amériques 
-            at Montreal World Film Festival for exceptional contribution to the art of cinema. In the same year, Khan received the Arts and Culture Prize of the Fukuoka Asian Culture Prizes. In Japan, he was also remembered as the Budai or "Singing Buddha". In 1997, he was nominated for two Grammy Awards, 
-            for Best Traditional Folk Album and Best World Music Album. In 1998, he was awarded PTV Life Time Achievement Award. As of 2001, he held the Guinness World Record for the "Most Qawwali Recordings", having recorded over 125 qawwali albums before his death. In 2005, Khan posthumously received 
-            the "Legends" award at the UK Asian Music Awards. Khan was listed at position 91 on Rolling Stone's 200 Best Singers Of All Time list, which was published on January 1, 2023.</p></div>
-
-    <div class="tab-list active" id="tab3">
-        <p>Khan is often credited as one of the progenitors of "world music." Widely acclaimed for his spiritual charisma and distinctive exuberance, he was one of the first and most important artists to popularize qawwali, then considered an "arcane religious tradition", to Western audiences. Jeff Buckley cited 
-            Khan as a major influence, saying of him "He's my Elvis", and performing the first few minutes of Khan's "Yeh Jo Halka Halka Suroor Hai" (including vocals) at live concerts. Many other artists have also cited Khan as an influence, such as Nadia Ali, Zayn Malik, Malay, Peter Gabriel, A. R. Rahman, Sheila Chandra, 
-            Alim Qasimov, Eddie Vedder, and Joan Osborne, among others. His music was also appreciated by singers such as Mick Jagger, socialites such as Parmeshwar Godrej, actors such as Amitabh Bachchan, Trudie Styler, Sean Penn, Susan Sarandon, and Tim Robbins, and authors such as Sam Harris, who cited Khan as one of his favourite 
-            musicians. In 2004, a tribute band called Brooklyn Qawwali Party (formerly Brook's Qawwali Party) was formed in New York City by percussionist Brook Martinez to perform the music of Khan.  The album, Dub Qawwali, was released by Six Degrees Records. It reached no. 2 in the iTunes US Chart, no. 4 in the UK and was the no. 1 seller 
-            in Amazon.com's Electronic Music section for a period. It also earned Gaudi a nomination for the BBC's World Music Awards 2008.</p></div>
-
-    <div class="tab-list active" id="tab4">
-        <p>One of Khan's famous qawwali songs, "Tere Bin Nahin Lagda" ("I am restless without you"), appeared on two of his 1996 albums, Sorrows Vol. 69 and Sangam (as "Tere Bin Nahin Lagda Dil"), the latter a collaborative album with Indian lyricist Javed Akhtar; Sangam sold over 1 million copies in India. Composed by Nusrat Fateh Ali Khan, the Kachche 
-            Dhaage soundtrack album sold 3 million units in India. Nusrat Fateh Ali Khan's music had a big impact on Bollywood music, inspiring numerous Indian musicians working in Bollywood since the late 1980s. For example, he inspired A. R. Rahman and Javed Akhtar, both of whom he collaborated with. However, there were many hit filmi songs from other Indian 
-            music directors that plagiarised Khan's music. His music also appears on soundtracks for Hollywood films such as The Last Temptation of Christ (1988), Natural Born Killers (1994) and Dead Man Walking (1995).</p></div>
-            
-    <h3>Refrences</h3>  
-<pre>
-    <cite>
-        Wikipedia https://en.wikipedia.org/wiki/Nusrat_Fateh_Ali_Khan
-    </cite>
-</pre>      
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <!--Photo Viewer-->
+    <div id="photo-viewer">
+        <div>
+            <img id="main-image" src="img/warm winter.jpeg" />
+        </div>
+        <div id="img-container">
+            <img class="img-pic" src="img/cups.jpeg" />
+            <img class="img-pic" src="img/eb.jpeg" />
+            <img class="img-pic" src="img/tulips.jpeg" />
+            <img class="img-pic" src="img/Aesthetic.webp" />
+            <img class="img-pic" src="img/France.jpeg" />
+        </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 
