@@ -1,54 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/photoViewer.css" rel="stylesheet">
-    <title>Model- PhViewer- Slider</title>
 </head>
 
 <body>
-    <h1><!-- your name goes here --> Photo Gallery</h1>
+    <h1>Sukhmanpreet Kaur Photo Gallery</h1>
     <div id="photo-viewer">
         <a href="#" class="photo-box is-loading"></a>
         <div class="photo-thumbnails">
-            <a href="img/full-sized-photo-1.png" class="thumbnail-anchor active" title="photo 1">
-                <img src="img/thumbnail-photo-1.png" alt="thumbnail 1">
+            <a href="img/warm winter.jpeg" class="thumbnail-anchor active" title="Shop">
+                <img src="img/thumbnail1.jpeg" alt="Reading thumbnail">
             </a>
-            <a href="img/full-sized-photo-2.png" class="thumbnail-anchor" title="photo 2">
-                <img src="img/thumbnail-photo-2.png" alt="thumbnail 2">
+            <a href="img/Aesthetic.webp" class="thumbnail-anchor" title="Classy">
+                <img src="img/thumbnail2.webp" alt="View thumbnail">
+            </a>
+            <a href="img/cups.jpeg" class="thumbnail-anchor" title="Pouring">
+                <img src="img/thumbnail3.webp" alt="Pouring thumbnail">
+            </a>
+            <a href="img/France.jpeg" class="thumbnail-anchor" title="Place">
+                <img src="img/thumbnail4.jpeg" alt="Food thumbnail">
+            </a>
+            <a href="img/tulips.jpeg" class="thumbnail-anchor" title="Flower">
+                <img src="img/thumbnail5.jpeg" alt="Talking thumbnail">
             </a>
         </div>
-    </div>
-
-    <!--Model Box - Light Box - Popup Box-->
-    <button id="open-box"> Open </button>
-    <div id="box-container">
-         <!-- Close element-->
-         <span id="close">Close</span>
-        <h2>Box Header</h2>
-        <p>This is the content of the box.</p>
-    </div>
-
-    <!--Photo Viewer-->
-    <div id="photo-viewer">
+            <button id="modal-close">Close</button>
+        
         <div>
-            <img id="main-image" src="img/warm winter.jpeg" />
+            <pre>
+                <code>
+                    Pixels.com         https://www.pexels.com/
+                </code>
+            </pre>
         </div>
-        <div id="img-container">
-            <img class="img-pic" src="img/cups.jpeg" />
-            <img class="img-pic" src="img/eb.jpeg" />
-            <img class="img-pic" src="img/tulips.jpeg" />
-            <img class="img-pic" src="img/Aesthetic.webp" />
-            <img class="img-pic" src="img/France.jpeg" />
-        </div>
-    </div>
-
+        
     <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/photoViewer.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
-
