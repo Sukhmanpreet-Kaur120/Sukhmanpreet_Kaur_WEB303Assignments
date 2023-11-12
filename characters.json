@@ -1,0 +1,52 @@
+[
+    {
+      "firstName": "Syndra",
+      "lastName": "Sole",
+      "gender": "Female",
+      "role": "Mage",
+      "age": 28
+    },
+    {
+      "firstName": "Viego",
+      "lastName": "Daris",
+      "gender": "Male",
+      "role": "Assassin",
+      "age": 45
+    },
+    {
+      "firstName": "Panthyeon",
+      "lastName": "Atreus",
+      "gender": "Male",
+      "role": "Fighter",
+      "age": 30
+    },
+    {
+      "firstName": "Lulu",
+      "lastName": "Pix",
+      "gender": "Female",
+      "role": "Support",
+      "age": 22
+    },
+    {
+      "firstName": "Aphelios",
+      "lastName": "Alune",
+      "gender": "Male",
+      "role": "Marksman",
+      "age": 25
+    },
+    {
+      "firstName": "Aurelion",
+      "lastName": "Sol",
+      "gender": "Female",
+      "role": "Dragon",
+      "age": 215
+    },
+    {
+      "firstName": "Annie",
+      "lastName": "Sharlens",
+      "gender": "Female",
+      "role": "Mage",
+      "age": 8
+    }
+  ]
+  
