@@ -48,3 +48,22 @@ th, td {
     text-align: left;
     border-bottom: 2px solid rgb(55, 47, 72); 
 }
+thead th a{
+  font-weight: bold;
+  font-size: 28px;
+  cursor: pointer;
+}
+table, tr,th,td {
+  border: 1px solid black;
+  padding: 2%;
+  border-collapse: collapse;
+}
+a.ascending::after{
+  content: "\25B2";
+}
+a.descending::after{
+  content: "\25BC";
+}
+a.no-sort::after{
+  content: "";
+}
