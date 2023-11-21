@@ -4,49 +4,55 @@
       "lastName": "Sole",
       "gender": "Female",
       "role": "Mage",
-      "age": 28
+      "age": 28,
+      "dateOfBirth": "1993-04-20"
     },
     {
       "firstName": "Viego",
       "lastName": "Daris",
       "gender": "Male",
       "role": "Assassin",
-      "age": 45
+      "age": 45,
+      "dateOfBirth": "1976-08-12"
     },
     {
       "firstName": "Panthyeon",
       "lastName": "Atreus",
       "gender": "Male",
       "role": "Fighter",
-      "age": 30
+      "age": 30,
+      "dateOfBirth": "1991-11-05"
     },
     {
       "firstName": "Lulu",
       "lastName": "Pix",
       "gender": "Female",
       "role": "Support",
-      "age": 22
+      "age": 22,
+      "dateOfBirth": "1999-02-15"
     },
     {
       "firstName": "Aphelios",
       "lastName": "Alune",
       "gender": "Male",
       "role": "Marksman",
-      "age": 25
+      "age": 25,
+      "dateOfBirth": "1996-09-25"
     },
     {
       "firstName": "Aurelion",
       "lastName": "Sol",
       "gender": "Female",
       "role": "Dragon",
-      "age": 215
+      "age": 215,
+      "dateOfBirth": "1806-07-01"
     },
     {
       "firstName": "Annie",
       "lastName": "Sharlens",
       "gender": "Female",
       "role": "Mage",
-      "age": 8
+      "age": 8,
+      "dateOfBirth": "2013-12-02"
     }
   ]
-  
